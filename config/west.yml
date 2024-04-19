@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmk
-      revision: trackball-support
+      revision: alpotato-pmw3360
       import: app/west.yml
   self:
     path: config
