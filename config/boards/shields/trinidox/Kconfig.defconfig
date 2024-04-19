@@ -1,21 +1,21 @@
-if SHIELD_TRACKTYL_LEFT
+if SHIELD_TRINIDOX_LEFT
 
     config ZMK_KEYBOARD_NAME
-        default "Tracktyl (Left)"
+        default "Trinidox (Left)"
 
 endif
 
-if SHIELD_TRACKTYL_RIGHT
+if SHIELD_TRINIDOX_RIGHT
 
     config ZMK_KEYBOARD_NAME
-        default "Tracktyl (Right)"
+        default "Trinidox (Right)"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
         default y
 
 endif
 
-if SHIELD_TRACKTYL_LEFT || SHIELD_TRACKTYL_RIGHT
+if SHIELD_TRINIDOX_LEFT || SHIELD_TRINIDOX_RIGHT
 
     config ZMK_SPLIT
         default y

@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmk
-      url-base: https://github.com/drorchen
+      url-base: https://github.com/collin-grefer
   projects:
     - name: zmk
       remote: zmk
