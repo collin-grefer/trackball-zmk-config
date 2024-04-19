@@ -32,6 +32,7 @@
                 &kp Z    &kp X    &kp C    &kp V          &kp B               &kp N    &kp M        &kp COMMA    &kp DOT &kp FSLH
                 &kp LGUI &kp LALT &kp LCTL &mt LSHIFT TAB &kp SPACE           &kp BSPC &lt ARWS RET &lt NUMS ESC &kp DEL &kp SQT
             >;
+            trackball-bindings = <&tmv>;
         };
 
 
