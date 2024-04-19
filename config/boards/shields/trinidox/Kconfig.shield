@@ -3,3 +3,4 @@ config SHIELD_TRINIDOX_LEFT
 
 config SHIELD_TRINIDOX_RIGHT
     def_bool $(shields_list_contains,trinidox_right)
+    CONFIG_ZMK_EXT_POWER=y
